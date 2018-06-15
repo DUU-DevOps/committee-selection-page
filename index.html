@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="author" content="DUU DevOps" />
+      
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
+      <link rel="stylesheet" href="style.css">
+      
+      <title>DUU Committee Selection</title>
+  </head>
+
+<body>
+    
+    <div id="committeeSelection">
+    
+        <div id="paramSelection">
+          <h1>Select Categories from Below</h1>
+          <div class="row">
+
+              <div class="column" id="button-selection" v-for="parameter in parameters">
+                <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                <label id="parameterLabel">{{parameter.name}}</label>  
+              </div>
+          </div>
+        </div>
+
+        <div id="committees" v-for="committeeParams in committees" v-if="committeeParams.shown">
+            <img v-on:click="apply(committeeParams.name)" v-bind:src='"assets/" + committeeParams.img'>
+        </div>
+        
+        <div>
+            <img v-on:click="exitApplication()" id="background" src="assets/background.jpg">
+            <iframe id="application" src="https://docs.google.com/forms/d/e/1FAIpQLSfxlNUYjsx2xHXDnND_EWPV5P8iv5bcaiUP546VnNjjNbU36A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+    
+    </div>
+    
+    <script  src="script.js"></script>
+
+</body>
+    
+</html>

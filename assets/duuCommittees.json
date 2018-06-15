@@ -1,0 +1,100 @@
+{
+    "committees": [
+        {
+            "name": "LDOC",
+            "img": "ldoc.png",
+            "parameters":  "A,E",
+            "shown": "true"
+        },
+        {
+            "name": "Downtown Duke",
+            "img": "downtownduke.png",
+            "parameters":  "B,C",
+            "shown": "true"
+        },  
+        {
+            "name": "STR",
+            "img": "str.png",
+            "parameters":  "D,F",
+            "shown": "true"
+        },
+        {
+            "name": "Special Events",
+            "img": "specialevents.png",
+            "parameters":  "B,I",
+            "shown": "true"
+        },
+        {
+            "name": "Campus Concerts",
+            "img": "cc.png",
+            "parameters":  "F,I",
+            "shown": "true"
+        },
+        {
+            "name": "Coffehouse",
+            "img": "coffeehouse.png",
+            "parameters":  "A,H",
+            "shown": "true"
+        },  
+        {
+            "name": "DevOps",
+            "img": "devops.png",
+            "parameters":  "B,H",
+            "shown": "true"
+        },
+        {
+            "name": "Duke Student Broadcasting",
+            "img": "dsb.png",
+            "parameters":  "D,A",
+            "shown": "true"
+        },
+        {
+            "name": "Financial Analysts",
+            "img": "finanalysts.png",
+            "parameters":  "C,F",
+            "shown": "true"
+        },
+        {
+            "name": "FIPs",
+            "img": "fips.png",
+            "parameters":  "C,D",
+            "shown": "true"
+        },
+        {
+            "name": "Freewater Presentations",
+            "img": "freewater.png",
+            "parameters":  "F,H",
+            "shown": "true"
+        },
+        {
+            "name": "Freewater Productions",
+            "img": "freewaterproductions.png",
+            "parameters":  "A,C",
+            "shown": "true"
+        },
+        {
+            "name": "Marketing",
+            "img": "marketing.png",
+            "parameters":  "B,H",
+            "shown": "true"
+        },
+        {
+            "name": "Jazz@",
+            "img": "jazz.png",
+            "parameters":  "F,C",
+            "shown": "true"
+        },
+        {
+            "name": "VisArts",
+            "img": "visarts.png",
+            "parameters":  "A,B",
+            "shown": "true"
+        },
+        {
+            "name": "WXDU",
+            "img": "wxdu.png",
+            "parameters":  "F,D",
+            "shown": "true"
+        }
+    ]
+}

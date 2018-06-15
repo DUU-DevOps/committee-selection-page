@@ -1,0 +1,40 @@
+h1, .column{
+    text-align: center;
+}
+#button-selection{
+    border: 1px solid black;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#committees img{
+    width: 12%;
+    float: left;
+    margin: 2.3333333%;
+}
+#committees img:hover{
+    cursor: pointer;
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; 
+}
+#application{
+    position: absolute;
+    top: 6%;
+    width: 50%;
+    height: 85%;
+    border: 10px solid white;
+    left: 25%;
+    display: none;
+}
