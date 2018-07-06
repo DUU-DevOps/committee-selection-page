@@ -8,10 +8,6 @@ h1, .column{
 }
 #button-selection{
     border-bottom: 1px solid rgba(255, 255, 255, .5);
-    border-right: 1px solid rgba(255, 255, 255, .5);
-}
-#button-selection:nth-child(7), #button-selection:nth-child(8), #button-selection:nth-child(9){
-    border-right: none; 
 }
 .column {
     float: left;
