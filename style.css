@@ -1,8 +1,13 @@
+body{
+    background-color: black;
+    font-family: "Open Sans";
+    color: white;
+}
 h1, .column{
     text-align: center;
 }
 #button-selection{
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .column {
     float: left;
@@ -37,4 +42,15 @@ h1, .column{
     border: 10px solid white;
     left: 25%;
     display: none;
+}
+#exit img{
+    z-index: 1;
+    position: absolute;
+    max-height: 5%;
+    top: 2%;
+    right: 1%;
+    display: none;
+}
+#exit img:hover{
+    cursor: pointer;
 }

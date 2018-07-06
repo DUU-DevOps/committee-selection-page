@@ -5,6 +5,7 @@
       
       <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
       
       <link rel="stylesheet" href="style.css">
       
@@ -28,6 +29,10 @@
 
         <div id="committees" v-for="committeeParams in committees" v-if="committeeParams.shown">
             <img v-on:click="apply(committeeParams.name)" v-bind:src='"assets/" + committeeParams.img'>
+        </div>
+        
+        <div id="exit">
+            <img v-on:click="exitApplication()" src="assets/exit-logo.png">
         </div>
         
         <div>

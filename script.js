@@ -137,7 +137,7 @@ var app1 = new Vue({
                     },
                     {
                         name: "DUU",
-                        img: "duu.jpg",
+                        img: "duu.png",
                         parameters:  "Big Events,Recurring Events,Programming,Technology,On Campus,Music,Media,Art,Video",
                         shown: true
                     }
@@ -188,10 +188,12 @@ var app1 = new Vue({
             $("#background")[0].style.display = "block";
             $("#background")[0].style.opacity = .9;
             $("#application")[0].style.display = "block";
+            $("#exit img")[0].style.display = "inline";
         },
         exitApplication: function(){
             $("#background")[0].style.display = "none";
             $("#application")[0].style.display = "none";
+            $("#exit img")[0].style.display = "none";
         },
     }
 });
