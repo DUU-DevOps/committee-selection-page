@@ -8,137 +8,137 @@ var app1 = new Vue({
                         name: "Big Events"
                     },
                     {
-                        name: "Technology"
+                        name: "Production"
                     },
                     {
                         name: "Media"
                     },
                     {
+                        name: "Small Events"
+                    },
+                    {
+                        name: "Planning"
+                    },
+                    {
+                        name: "Concerts"
+                    }, 
+                    {
                         name: "Recurring Events"
                     },
                     {
-                        name: "On Campus"
+                        name: "Technology"
                     },
                     {
-                        name: "Art"
-                    }, 
-                    {
-                        name: "Programming"
-                    },
-                    {
-                        name: "Music"
-                    },
-                    {
-                        name: "Video"
+                        name: "Student Engagement"
                     }
                 ],
             committees: [
                     {
                         name: "LDOC",
                         img: "ldoc.png",
-                        parameters:  "Big Events,On Campus",
+                        parameters:  "Big Events,Production,Planning,Concerts",
                         shown: true,
                     },
                     {
                         name: "Downtown Duke",
                         img: "downtownduke.png",
-                        parameters:  "Recurring Events,Art",
+                        parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
                         shown: true
                     },  
                     {
                         name: "Special Events",
                         img: "specialevents.png",
-                        parameters:  "Recurring Events,Video",
+                        parameters:  "Small Events,Big Events,Recurring Events,Planning,Student Engagement",
                         shown: true
                     },
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
-                        parameters:  "Music,Video",
+                        parameters:  "Big Events,Planning,Concerts",
                         shown: true
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
-                        parameters:  "Big Events,Art",
+                        parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
                         shown: true
                     },  
                     {
                         name: "DevOps",
                         img: "devops.png",
-                        parameters:  "Recurring Events,Art",
+                        parameters:  "Small Events,Technology",
                         shown: true
                     },
                     {
                         name: "Duke Student Broadcasting",
                         img: "dsb.png",
-                        parameters:  "Technology,Big Events",
+                        parameters:  "Small Events,Recurring Events,Technology,Media",
                         shown: true
                     },
                     {
                         name: "Financial Analysts",
                         img: "finanalysts.png",
-                        parameters:  "Programming,Music",
+                        parameters:  "Small Events,Planning,Technology,Media",
                         shown: true
                     },
                     {
                         name: "FIPs",
                         img: "fips.png",
-                        parameters:  "Programming,Technology",
+                        parameters:  "Small Events,Planning,Media",
                         shown: true
                     },
                     {
                         name: "Freewater Presentations",
                         img: "freewater.png",
-                        parameters:  "Music,Art",
+                        parameters:  "Small Events,Recurring Events,Production,Technology,Media",
                         shown: true
                     },
                     {
                         name: "Freewater Productions",
                         img: "freewaterproductions.png",
-                        parameters:  "Big Events,Art",
+                        parameters:  "Small Events,Recurring Events,Production,Technology,Media",
                         shown: true
                     },
                     {
                         name: "Speakers and Stage",
                         img: "speakers.png",
-                        parameters:  "Big Events,Art",
+                        parameters:  "Big Events,Small Events,Production,Planning,Media",
                         shown: true
                     },
                     {
                         name: "Marketing",
                         img: "marketing.png",
-                        parameters:  "Recurring Events,Art",
+                        parameters:  "Small Events,Planning,Technology,Media",
                         shown: true
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
-                        parameters:  "Music,Technology",
+                        parameters:  "Small Events,Recurring Events,Planning,Media,Concerts",
                         shown: true
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
-                        parameters:  "Big Events,Recurring Events",
+                        parameters:  "Small Events,Recurring Events,Production,Planning,Media",
                         shown: true
                     },
                     {
                         name: "WXDU",
                         img: "wxdu.png",
-                        parameters:  "Music,Technology",
+                        parameters:  "Small Events,Recurring Events,Production,Technology,Media,Music",
                         shown: true
                     },
                     {
                         name: "STR",
                         img: "str.png",
-                        parameters:  "Technology,Music",
+                        parameters:  "Big Events,Recurring Events,Production,Planning,Technology,Music,Media,Concerts",
                         shown: true
                     },
                     {
                         name: "DUU",
                         img: "duu.png",
-                        parameters:  "Big Events,Recurring Events,Programming,Technology,On Campus,Music,Media,Art,Video",
+                        parameters:  "Big Events,Small Events,Recurring Events,Production,Planning,Technology,Media,Concerts,Music",
                         shown: true
                     }
                 ],
