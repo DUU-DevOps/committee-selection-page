@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    font-family: 'DejaVu Sans Mono';
+    font-family: "Roboto";
     color: white;
 }
 h1, h3, h2{
@@ -20,7 +20,10 @@ h3{
     float: left;
     width: 33%;
 }
-
+#background{
+    width: 100vw;
+    height: 100vh;
+}
 .row:after {
     content: "";
     display: table;
@@ -47,7 +50,6 @@ h3{
     position: absolute;
     top: 8%;
     width: 90%;
-    margin-left: 5%;
     padding: 0;
     height: 90%;
     border: 10px solid white;
