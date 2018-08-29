@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    font-family: "Open Sans";
+    font-family: 'Roboto', sans-serif;
+
     color: white;
 }
 h1, h3, h2{
@@ -45,11 +46,12 @@ h3{
 }
 #application{
     position: absolute;
-    top: 6%;
-    width: 50%;
-    height: 85%;
+    top: 8%;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0;
+    height: 90%;
     border: 10px solid white;
-    left: 25%;
     display: none;
 }
 #exit img{
@@ -97,12 +99,17 @@ h3{
         width: 27%;
         float: left;
         margin: 3.166666%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
 }
 @media (max-width: 450px){
     #button-selection label{
         font-size: 65%;
+    }
+}
+@media (max-width: 400px){
+    #button-selection label{
+        font-size: 55%;
     }
 }
