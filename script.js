@@ -94,7 +94,7 @@ var app1 = new Vue({
                         img: "fips.png",
                         parameters:  "Small Events,Planning,Media",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfqLm2yc7UXImG-zCrlpH9c4_gLXgLrEfE955kokcPoCj6ikQ/viewform"
+                        link: "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"
                     },
                     {
                         name: "Freewater Presentations",
@@ -195,6 +195,10 @@ var app1 = new Vue({
             }
         },
         apply: function(committeeLink){
+            if (committeeLink === "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"){
+                window.open(committeeLink);
+                return;
+            }
             $("#application").replaceWith('<iframe align="middle" id="application" src="'+committeeLink+'" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>');
             $("#background")[0].style.display = "block";
             $("#background")[0].style.opacity = .9;
