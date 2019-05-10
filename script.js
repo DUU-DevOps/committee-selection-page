@@ -4,137 +4,240 @@
     data: function(){
         return {
             parameters: [
-                    {
-                        name: "Big Events"
-                    },
-                    {
-                        name: "Production"
-                    },
-                    {
-                        name: "Media"
-                    },
-                    {
-                        name: "Small Events"
-                    },
-                    {
-                        name: "Planning"
-                    },
-                    {
-                        name: "Concerts"
-                    }, 
-                    {
-                        name: "Recurring Events"
-                    },
-                    {
-                        name: "Technology"
-                    },
-                    {
-                        name: "Student Engagement"
-                    }
-                ],
+                {
+                    name: "Music performance"
+                },
+                {
+                    name: "Music production"
+                },
+                {
+                    name: "Jazz"
+                },
+                {
+                    name: "Concerts"
+                },
+                {
+                    name: "Photography"
+                },
+                {
+                    name: "Filmography"
+                },
+                {
+                    name: "Visual arts"
+                },
+                {
+                    name: "Broadcasting"
+                },
+                {
+                    name: "Large events"
+                },
+                {
+                    name: "Regular events"
+                },
+                {
+                    name: "Strategy"
+                },
+                {
+                    name: "Graphic design"
+                },
+                {
+                    name: "Brand growth"
+                },
+                {
+                    name: "App development"
+                },
+                {
+                    name: "Data analytics"
+                },
+                {
+                    name: "Web design"
+                },
+                {
+                    name: "Karaoke or Trivia"
+                },
+                {
+                    name: "Carnivals"
+                },
+                {
+                    name: "Live performances"
+                }
+            ],
+            
+            musicParameters: [
+                {
+                    name: "Music performance"
+                },
+                {
+                    name: "Music production"
+                },
+                {
+                    name: "Jazz"
+                },
+                {
+                    name: "Concerts"
+                }
+                
+            ],
+            
+            artsMediaParameters:[
+                {
+                    name: "Photography"
+                },
+                {
+                    name: "Filmography"
+                },
+                {
+                    name: "Visual arts"
+                },
+                {
+                    name: "Broadcasting"
+                }
+            ],
+            
+            eventPlanningParameters:[
+                {
+                    name: "Large events"
+                },
+                {
+                    name: "Regular events"
+                },
+                {
+                    name: "Karaoke or Trivia"
+                },
+                {
+                    name: "Carnivals"
+                },
+                {
+                    name: "Live performances"
+                }
+            ],
+            
+            marketingParameters:[
+                {
+                    name: "Strategy"
+                },
+                {
+                    name: "Graphic design"
+                },
+                {
+                    name: "Brand growth"
+                },
+            ],
+            
+            technologyParameters:[
+                {
+                    name: "App development"
+                },
+                {
+                    name: "Data analytics"
+                },
+                {
+                    name: "Web design"
+                }
+            ],
             committees: [
                     {
                         name: "LDOC",
                         img: "ldoc.png",
-                        parameters:  "Big Events,Production,Planning,Concerts",
+                        parameters:  "Large events,Concerts,Data analytics",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
                     },
                     {
-                        name: "Downtown Duke",
+                        name: "Duke@Nite",
                         img: "downtownduke.png",
-                        parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
+                        parameters:  "Regular events,Karaoke or Trivia",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfSq4isW3R4iCI5PzSQtoRGp4Ts7YzjqH1EOmbOSWKvKS7EkA/viewform"
                     },  
                     {
                         name: "Special Events",
                         img: "specialevents.png",
-                        parameters:  "Small Events,Big Events,Recurring Events,Planning,Student Engagement",
+                        parameters:  "Large events,Carnivals",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSeP3tQNfe-56O1WVawunS5GQvt7AbN5DI2VNUA6K1wY6EcDVw/viewform?usp=sf_link"
                     },
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
-                        parameters:  "Big Events,Planning,Concerts",
+                        parameters:  "Large events,Concerts,Music performance,Graphic design",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
-                        parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
+                        parameters:  "Regular events,Concerts",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },  
                     {
                         name: "DevOps",
                         img: "devops.png",
-                        parameters:  "Small Events,Technology",
+                        parameters:  "App development,Data analytics,Web design",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfxlNUYjsx2xHXDnND_EWPV5P8iv5bcaiUP546VnNjjNbU36A/viewform?embedded=true"
                     },
                     {
                         name: "Duke Student Broadcasting",
                         img: "dsb.png",
-                        parameters:  "Small Events,Recurring Events,Technology,Media",
+                        parameters:  "Regular events,Filmography,Broadcasting",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Financial Analysts",
                         img: "finanalysts.png",
-                        parameters:  "Small Events,Planning,Technology,Media",
+                        parameters:  "App development,Data analytics,Strategy",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "FIPs",
                         img: "fips.png",
-                        parameters:  "Small Events,Planning,Media",
+                        parameters:  "Regular events,Strategy", //NEED HELP!
                         shown: false,
                         link: "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"
                     },
                     {
                         name: "Freewater Presentations",
                         img: "freewater.png",
-                        parameters:  "Small Events,Recurring Events,Production,Technology,Media",
+                        parameters:  "Regular events,Filmography",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Freewater Productions",
                         img: "freewaterproductions.png",
-                        parameters:  "Small Events,Recurring Events,Production,Technology,Media",
+                        parameters:  "Filmography,Photography,Broadcasting",
                         shown: false,
                         link: "https://goo.gl/forms/UM2pjHuyCw6fCGvC3"
                     },
                     {
                         name: "Speakers and Stage",
                         img: "speakers.png",
-                        parameters:  "Big Events,Small Events,Production,Planning,Media",
+                        parameters:  "Large events,Live performances,Music performance",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Marketing",
                         img: "marketing.png",
-                        parameters:  "Small Events,Planning,Technology,Media",
+                        parameters:  "Strategy,Graphic design,Brand growth,Photography,Web design",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
-                        parameters:  "Small Events,Recurring Events,Planning,Media,Concerts",
+                        parameters:  "Regular events,Concerts,Jazz,Live performances",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
-                        parameters:  "Small Events,Recurring Events,Production,Planning,Media",
+                        parameters:  "Regular events,Visual arts",
                         shown: false,
                         link: "https://docs.google.com/forms/u/3/d/1PAUkc5KHCPoqIzuaoQO0SFAonzYujQIVKKaXT2CqOPc/edit?usp=drive_web",
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
@@ -142,23 +245,16 @@
                     {
                         name: "WXDU",
                         img: "wxdu.png",
-                        parameters:  "Small Events,Recurring Events,Production,Technology,Media,Student Engagement",
+                        parameters:  "Music production,Jazz,Broadcasting",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "STR",
                         img: "str.png",
-                        parameters:  "Big Events,Recurring Events,Production,Planning,Technology,Media,Concerts",
+                        parameters:  "Large events,Music performance,Music production,Concerts,Jazz,Live performances",
                         shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLScRVFiZj0mPxnL-LzS9Cl_Z1KAtOrKcAmQGQvZLVwLyJ2jFAg/viewform?usp=sf_link"
-                    },
-                    {
-                        name: "DUU",
-                        img: "duu.png",
-                        parameters:  "Big Events,Small Events,Recurring Events,Production,Planning,Technology,Media,Concerts,Student Engagement",
-                        shown: false,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     }
                 ],
             }
@@ -173,13 +269,13 @@
             );
 
             
-            if (list.length < 1){
+            //if (list.length < 1){
                 for (var r=0; r<app1.committees.length;r++){
-                    app1.committees[r].shown = true;
+                    app1.committees[r].shown = false;
                 }
-            }  
+            //}  
             for (var r=0; r<app1.committees.length;r++){
-                var flag=true;
+                //var flag=false;
                 var paramList = app1.committees[r].parameters.split(",");
                 
                 for (var z=0; z<list.length;z++){
@@ -190,12 +286,12 @@
 //                    }
                     if (paramList.includes(list[z])){
                         app1.committees[r].shown = true;
-                        flag = true;
                     }
+
                 }
-                if (flag){
-                    app1.committees[r].shown = false;
-                }
+//                if (flag){
+//                    app1.committees[r].shown = true;
+//                }
             }
         },
         apply: function(committeeLink){

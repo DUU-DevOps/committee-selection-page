@@ -6,7 +6,7 @@
       
       <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">      
+      <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">      
       <link rel="stylesheet" href="style.css">
       
       <title>DUU Committee Selection</title>
@@ -22,24 +22,55 @@
 <body>
     
     <div id="committeeSelection">
+        
+        <h1>I'm interested in...</h1>
     
         <div id="paramSelection">
           <div class="row">
-              <div class="column">
-                  <h3>Size</h3>
+             <div class="column" id="button-selection" style="background: rgba(300,61,49,.8)">
+                  <h4>Arts & Media</h4>
+                  <div v-for="parameter in artsMediaParameters">
+                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                      <label id="parameterLabel">{{parameter.name}}</label>
+                  </div>
               </div>
-              <div class="column">
-                  <h3>Role</h3>
+              
+              <div class="column" id="button-selection" style="background:#E33D31">
+                  <h4>Music</h4>
+                  <div v-for="parameter in musicParameters">
+                      <input class="largerCheckbox" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                      <label id="parameterLabel">{{parameter.name}}</label>
+                  </div>
+                
               </div>
-              <div class="column">
-                  <h3>Genre</h3>
+              
+
+              <div class="column" id="button-selection" style="background:#E33D31">
+                  <h4>Event Planning</h4>
+                  <div v-for="parameter in eventPlanningParameters">
+                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                      <label id="parameterLabel">{{parameter.name}}</label>
+                  </div>
               </div>
-          </div>
-          <div class="row">
-              <div class="column" id="button-selection" v-for="parameter in parameters">
-                <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                <label id="parameterLabel">{{parameter.name}}</label>
+              
+              <div class="column" id="button-selection" style="background:#E33D31">
+                  <h4>Marketing</h4>
+                  <div v-for="parameter in marketingParameters">
+                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                      <label id="parameterLabel">{{parameter.name}}</label>
+                  </div>
               </div>
+              
+              <div class="column" id="button-selection" style="background:#E33D31">
+                  <h4>Technology</h4>
+                  <div v-for="parameter in technologyParameters">
+                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
+                      <label id="parameterLabel">{{parameter.name}}</label>
+                  </div>
+              </div>
+ 
+              
+              
           </div>
         </div>
 
