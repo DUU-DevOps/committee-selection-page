@@ -17,6 +17,11 @@
             obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
           }
       </script>
+      
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+      
+    
   </head>
 
 <body>
@@ -27,46 +32,58 @@
     
         <div id="paramSelection">
           <div class="row">
-             <div class="column" id="button-selection" style="background: rgba(300,61,49,.8)">
+              <div class="column" id="button-selection" style="background: rgba(300,61,49,.8)">
                   <h4>Arts & Media</h4>
-                  <div v-for="parameter in artsMediaParameters">
-                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                      <label id="parameterLabel">{{parameter.name}}</label>
-                  </div>
+                  
+                      <ul class="ks-cboxtags">
+                          <li v-for="parameter in artsMediaParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                      </ul>
+                      
               </div>
               
               <div class="column" id="button-selection" style="background:#E33D31">
                   <h4>Music</h4>
-                  <div v-for="parameter in musicParameters">
-                      <input class="largerCheckbox" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                      <label id="parameterLabel">{{parameter.name}}</label>
-                  </div>
+                  <ul class="ks-cboxtags">
+                          <li v-for="parameter in musicParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                      </ul>
                 
               </div>
               
 
               <div class="column" id="button-selection" style="background:#E33D31">
                   <h4>Event Planning</h4>
-                  <div v-for="parameter in eventPlanningParameters">
-                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                      <label id="parameterLabel">{{parameter.name}}</label>
-                  </div>
+                  <ul class="ks-cboxtags">
+                          <li v-for="parameter in eventPlanningParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                      </ul>
               </div>
               
               <div class="column" id="button-selection" style="background:#E33D31">
                   <h4>Marketing</h4>
-                  <div v-for="parameter in marketingParameters">
-                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                      <label id="parameterLabel">{{parameter.name}}</label>
-                  </div>
+                  <ul class="ks-cboxtags">
+                          <li v-for="parameter in marketingParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                  </ul>
               </div>
               
               <div class="column" id="button-selection" style="background:#E33D31">
                   <h4>Technology</h4>
-                  <div v-for="parameter in technologyParameters">
-                      <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()">
-                      <label id="parameterLabel">{{parameter.name}}</label>
-                  </div>
+                  <ul class="ks-cboxtags">
+                          <li v-for="parameter in technologyParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                  </ul>
               </div>
  
               
