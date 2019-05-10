@@ -1,4 +1,4 @@
-var app1 = new Vue({
+    var app1 = new Vue({
     el: "#committeeSelection",
     
     data: function(){
@@ -37,105 +37,105 @@ var app1 = new Vue({
                         name: "LDOC",
                         img: "ldoc.png",
                         parameters:  "Big Events,Production,Planning,Concerts",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
                     },
                     {
                         name: "Downtown Duke",
                         img: "downtownduke.png",
                         parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfSq4isW3R4iCI5PzSQtoRGp4Ts7YzjqH1EOmbOSWKvKS7EkA/viewform"
                     },  
                     {
                         name: "Special Events",
                         img: "specialevents.png",
                         parameters:  "Small Events,Big Events,Recurring Events,Planning,Student Engagement",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSeP3tQNfe-56O1WVawunS5GQvt7AbN5DI2VNUA6K1wY6EcDVw/viewform?usp=sf_link"
                     },
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
                         parameters:  "Big Events,Planning,Concerts",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
                         parameters:  "Small Events,Recurring Events,Planning,Student Engagement",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },  
                     {
                         name: "DevOps",
                         img: "devops.png",
                         parameters:  "Small Events,Technology",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfxlNUYjsx2xHXDnND_EWPV5P8iv5bcaiUP546VnNjjNbU36A/viewform?embedded=true"
                     },
                     {
                         name: "Duke Student Broadcasting",
                         img: "dsb.png",
                         parameters:  "Small Events,Recurring Events,Technology,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Financial Analysts",
                         img: "finanalysts.png",
                         parameters:  "Small Events,Planning,Technology,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "FIPs",
                         img: "fips.png",
                         parameters:  "Small Events,Planning,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"
                     },
                     {
                         name: "Freewater Presentations",
                         img: "freewater.png",
                         parameters:  "Small Events,Recurring Events,Production,Technology,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Freewater Productions",
                         img: "freewaterproductions.png",
                         parameters:  "Small Events,Recurring Events,Production,Technology,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://goo.gl/forms/UM2pjHuyCw6fCGvC3"
                     },
                     {
                         name: "Speakers and Stage",
                         img: "speakers.png",
                         parameters:  "Big Events,Small Events,Production,Planning,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Marketing",
                         img: "marketing.png",
                         parameters:  "Small Events,Planning,Technology,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
                         parameters:  "Small Events,Recurring Events,Planning,Media,Concerts",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
                         parameters:  "Small Events,Recurring Events,Production,Planning,Media",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/u/3/d/1PAUkc5KHCPoqIzuaoQO0SFAonzYujQIVKKaXT2CqOPc/edit?usp=drive_web",
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
@@ -143,21 +143,21 @@ var app1 = new Vue({
                         name: "WXDU",
                         img: "wxdu.png",
                         parameters:  "Small Events,Recurring Events,Production,Technology,Media,Student Engagement",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "STR",
                         img: "str.png",
                         parameters:  "Big Events,Recurring Events,Production,Planning,Technology,Media,Concerts",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLScRVFiZj0mPxnL-LzS9Cl_Z1KAtOrKcAmQGQvZLVwLyJ2jFAg/viewform?usp=sf_link"
                     },
                     {
                         name: "DUU",
                         img: "duu.png",
                         parameters:  "Big Events,Small Events,Recurring Events,Production,Planning,Technology,Media,Concerts,Student Engagement",
-                        shown: true,
+                        shown: false,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     }
                 ],
@@ -183,14 +183,18 @@ var app1 = new Vue({
                 var paramList = app1.committees[r].parameters.split(",");
                 
                 for (var z=0; z<list.length;z++){
-                    if (! paramList.includes(list[z])){
-                        app1.committees[r].shown = false;
-                        flag=false;
-                        break;
+//                    if (! paramList.includes(list[z])){
+//                        app1.committees[r].shown = false;
+//                        flag=false;
+//                        break;
+//                    }
+                    if (paramList.includes(list[z])){
+                        app1.committees[r].shown = true;
+                        flag = true;
                     }
                 }
                 if (flag){
-                    app1.committees[r].shown = true;
+                    app1.committees[r].shown = false;
                 }
             }
         },
