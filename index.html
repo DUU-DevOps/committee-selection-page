@@ -32,7 +32,7 @@
     
         <div id="paramSelection">
           <div class="row col-container">
-              <div class="column" id="button-selection">                  
+              <div class="column" id="button-selection" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px;">                  
                   
                   <label class="toggle category">
                     <input class="toggle__input chk" type="checkbox" v-on:click="select()" id="artsMedia" value="Arts & media">
@@ -82,7 +82,7 @@
                   </ul>
               </div>
               
-              <div class="column" id="button-selection">
+              <div class="column" id="button-selection" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
                   <h4>Technology</h4>
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in technologyParameters">
