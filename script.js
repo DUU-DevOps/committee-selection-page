@@ -267,6 +267,16 @@
                     return this.value;
                 }
             );
+            
+                        console.log(list);
+            if ("Arts & media" in list){
+                console.log("TRUEEEEE");
+            }
+            else{
+                console.log("FALSEEEEEEE");
+            }
+            
+
 
             
             if (list.length < 1){
@@ -298,6 +308,10 @@
 //                    app1.committees[r].shown = true;
 //                }
             }
+            
+
+            //Check for category selection
+            //if list.includes("")
         },
         apply: function(committeeLink){
             if (committeeLink === "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"){
