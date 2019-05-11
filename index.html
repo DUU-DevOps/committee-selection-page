@@ -32,10 +32,10 @@
     
         <div id="paramSelection">
           <div class="row col-container">
-              <div class="column" id="button-selection" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px;">                  
+              <div class="column" id="button-selection" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">                  
                   
                   <label class="toggle category">
-                    <input class="toggle__input chk" type="checkbox" v-on:click="select()" id="artsMedia" value="Arts & media">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllArts(); select();" v-model="allSelectedArts" id="artsMedia">
                     <span class="toggle__label">
                       <span class="toggle__text">Arts & Media</span>
                     </span>
@@ -43,7 +43,7 @@
                   
                       <ul class="ks-cboxtags">
                           <li v-for="parameter in artsMediaParameters">
-                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <input class=""  type="checkbox" v-bind:value=parameter.name v-bind:id="parameter.name" v-model="currentSelection" v-on:change="select()">
                             <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                       </ul>
@@ -51,11 +51,17 @@
               </div>
               
               <div class="column" id="button-selection" >
-                  <h4>Music</h4>
+                  <label class="toggle category">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllMusic(); select();" v-model="allSelectedMusic" id="music">
+                    <span class="toggle__label">
+                      <span class="toggle__text">Music</span>
+                    </span>
+                  </label>
+                  
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in musicParameters">
-                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
-                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                            <input class="" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
+                            <label v-bind:for="parameter.name" id="parameterLabel" >{{parameter.name}}</label>
                           </li>
                       </ul>
                 
@@ -63,30 +69,46 @@
               
 
               <div class="column" id="button-selection">
-                  <h4>Event Planning</h4>
+                  <label class="toggle category">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllEvent(); select();" v-model="allSelectedEvent" id="event">
+                    <span class="toggle__label">
+                      <span class="toggle__text">Event Planning</span>
+                    </span>
+                  </label>
+                  
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in eventPlanningParameters">
-                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
                             <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                       </ul>
               </div>
               
               <div class="column" id="button-selection">
-                  <h4>Marketing</h4>
+                  <label class="toggle category">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllMarketing(); select();" v-model="allSelectedMarketing" id="marketing">
+                    <span class="toggle__label">
+                      <span class="toggle__text">Marketing</span>
+                    </span>
+                  </label>
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in marketingParameters">
-                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
                             <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                   </ul>
               </div>
               
-              <div class="column" id="button-selection" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
-                  <h4>Technology</h4>
+              <div class="column" id="button-selection" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                  <label class="toggle category">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllTech(); select();" v-model="allSelectedTech" id="tech">
+                    <span class="toggle__label">
+                      <span class="toggle__text">Technology</span>
+                    </span>
+                  </label>
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in technologyParameters">
-                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:click="select()" v-bind:id="parameter.name">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
                             <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                   </ul>
@@ -111,6 +133,7 @@
         </div>
     
     </div>
+
     
     <script  src="script.js"></script>
 

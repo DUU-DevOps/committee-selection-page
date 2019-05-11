@@ -3,9 +3,15 @@
     
     data: function(){
         return {
+            currentSelection: [],
+            allSelectedArts: false,
+            allSelectedMusic: false,
+            allSelectedEvent: false,
+            allSelectedMarketing: false,
+            allSelectedTech: false,
             parameters: [
                 {
-                    name: "Music performance"
+                    name: "Music performance",
                 },
                 {
                     name: "Music production"
@@ -52,7 +58,7 @@
                 {
                     name: "Photography"
                 },
-                                {
+                {
                     name: "App development"
                 },
                 {
@@ -260,26 +266,21 @@
                 ],
             }
         },
+        
     
     methods: {
         select: function(){            
-            var list = $(".chk:checked").map(
-                function () {
-                    return this.value;
-                }
-            );
-            
-                        console.log(list);
-            if ("Arts & media" in list){
-                console.log("TRUEEEEE");
-            }
-            else{
-                console.log("FALSEEEEEEE");
-            }
+//            var list = $(".chk:checked").map(
+//                function () {
+//                    return this.value;
+//                }
+//            );
+
+            var list =  this.currentSelection;
             
 
-
             
+            //Make everything false first to ensure committees are shown if nothing is selected
             if (list.length < 1){
                 for (var r=0; r<app1.committees.length;r++){
                     app1.committees[r].shown = true;
@@ -290,29 +291,23 @@
                     app1.committees[r].shown = false;
                 }
             }
+            
+            
+            //Match tags algorithm
             for (var r=0; r<app1.committees.length;r++){
                 //var flag=false;
                 var paramList = app1.committees[r].parameters.split(",");
                 
                 for (var z=0; z<list.length;z++){
-//                    if (! paramList.includes(list[z])){
-//                        app1.committees[r].shown = false;
-//                        flag=false;
-//                        break;
-//                    }
                     if (paramList.includes(list[z])){
                         app1.committees[r].shown = true;
                     }
 
                 }
-//                if (flag){
-//                    app1.committees[r].shown = true;
-//                }
             }
             
 
-            //Check for category selection
-            //if list.includes("")
+
         },
         apply: function(committeeLink){
             if (committeeLink === "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"){
@@ -329,6 +324,56 @@
             $("#background")[0].style.display = "none";
             $("#application")[0].style.display = "none";
             $("#exit img")[0].style.display = "none";
+        },
+        selectAllArts: function() {
+            this.currentSelection = [];
+            
+            if (!this.allSelectedArts) {
+                for (parameter in this.artsMediaParameters) {
+                    this.currentSelection.push(this.artsMediaParameters[parameter].name.toString());
+                }
+            }
+            allSelectedArts = true;
+        },
+        selectAllMusic: function() {
+            this.currentSelection = [];
+            
+            if (!this.allSelectedMusic) {
+                for (parameter in this.musicParameters) {
+                    this.currentSelection.push(this.musicParameters[parameter].name.toString());
+                }
+            }
+            allSelectedMusic = true;
+        },
+        selectAllEvent: function() {
+            this.currentSelection = [];
+            
+            if (!this.allSelectedEvent) {
+                for (parameter in this.eventPlanningParameters) {
+                    this.currentSelection.push(this.eventPlanningParameters[parameter].name.toString());
+                }
+            }
+            allSelectedEvent = true;
+        },
+        selectAllMarketing: function() {
+            this.currentSelection = [];
+            
+            if (!this.allSelectedMarketing) {
+                for (parameter in this.marketingParameters) {
+                    this.currentSelection.push(this.marketingParameters[parameter].name.toString());
+                }
+            }
+            allSelectedMarketing = true;
+        },
+        selectAllTech: function() {
+            this.currentSelection = [];
+            
+            if (!this.allSelectedTech) {
+                for (parameter in this.technologyParameters) {
+                    this.currentSelection.push(this.technologyParameters[parameter].name.toString());
+                }
+            }
+            allSelectedTech = true;
         },
     }
 });
