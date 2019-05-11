@@ -13,8 +13,7 @@ h3, h2{
 h4{
     text-align: center;
     font-size: 24px;
-    margin: 2%;
-    
+    vertical-align: middle;
 }
 h3{
     text-decoration: underline;
@@ -31,6 +30,7 @@ h1{
 .column {
     /*float: left;*/
     padding-left:1%;
+    padding-top: 1%;
     width: 20%;
     font-size: 18px;
     display: table-cell; /* Make elements inside the container behave like table cells */
@@ -220,6 +220,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
     font-size: 24px;
     font-weight:bold;
     vertical-align: middle;
+    padding-top: 1%;
 }
 
 
@@ -398,7 +399,7 @@ LEVEL 3. SETTINGS
 .toggle{
   --toggleColor: #690e90;
   --toggleBgColor: #9b59b6;
-  --toggleSize: 30px;
+  --toggleSize: 28px;
 }
 
 
