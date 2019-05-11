@@ -38,19 +38,22 @@
                     name: "Broadcasting"
                 },
                                 {
-                    name: "Large events"
+                    name: "Large-scale events"
                 },
                 {
-                    name: "Regular events"
+                    name: "Weekly events"
                 },
                 {
-                    name: "Karaoke or Trivia"
+                    name: "Karaoke"
+                },
+                {
+                    name: "Trivia"
                 },
                 {
                     name: "Live performances"
                 },
                                 {
-                    name: "Strategy"
+                    name: "Marketing strategy"
                 },
                 {
                     name: "Graphic design"
@@ -106,13 +109,16 @@
             
             eventPlanningParameters:[
                 {
-                    name: "Large events"
+                    name: "Large-scale events"
                 },
                 {
-                    name: "Regular events"
+                    name: "Weekly events"
                 },
                 {
-                    name: "Karaoke or Trivia"
+                    name: "Karaoke"
+                },
+                {
+                    name: "Trivia"
                 },
                 {
                     name: "Live performances"
@@ -121,7 +127,7 @@
             
             marketingParameters:[
                 {
-                    name: "Strategy"
+                    name: "Marketing strategy"
                 },
                 {
                     name: "Graphic design"
@@ -146,35 +152,35 @@
                     {
                         name: "LDOC",
                         img: "ldoc.png",
-                        parameters:  "Large events,Concerts,Data analytics,Live performances",
+                        parameters:  "Large-scale events,Concerts,Data analytics,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
                     },
                     {
                         name: "Duke@Nite",
-                        img: "downtownduke.png",
-                        parameters:  "Regular events,Karaoke or Trivia",
+                        img: "dukeatnite.png",
+                        parameters:  "Weekly events,Karaoke,Trivia",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfSq4isW3R4iCI5PzSQtoRGp4Ts7YzjqH1EOmbOSWKvKS7EkA/viewform"
                     },  
                     {
                         name: "Special Events",
                         img: "specialevents.png",
-                        parameters:  "Large events,Live performances",
+                        parameters:  "Large-scale events,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSeP3tQNfe-56O1WVawunS5GQvt7AbN5DI2VNUA6K1wY6EcDVw/viewform?usp=sf_link"
                     },
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
-                        parameters:  "Large events,Concerts,Music performance,Graphic design",
+                        parameters:  "Large-scale events,Concerts,Music performance,Graphic design",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
-                        parameters:  "Regular events,Concerts,Film appreciation",
+                        parameters:  "Weekly events,Concerts,Film appreciation",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },  
@@ -195,21 +201,21 @@
                     {
                         name: "Financial Analysts",
                         img: "finanalysts.png",
-                        parameters:  "App development,Data analytics,Strategy",
+                        parameters:  "App development,Data analytics",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "FIPs",
                         img: "fips.png",
-                        parameters:  "Regular events,Strategy", //NEED HELP!
+                        parameters:  "Weekly events,Marketing strategy", //NEED HELP!
                         shown: true,
                         link: "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"
                     },
                     {
                         name: "Freewater Presentations",
                         img: "freewater.png",
-                        parameters:  "Regular events,Film appreciation",
+                        parameters:  "Weekly events,Film appreciation",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
@@ -223,28 +229,28 @@
                     {
                         name: "Speakers and Stage",
                         img: "speakers.png",
-                        parameters:  "Large events,Live performances",
+                        parameters:  "Large-scale events,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Marketing",
                         img: "marketing.png",
-                        parameters:  "Strategy,Graphic design,Photography,Web design,Data analytics",
+                        parameters:  "Marketing strategy,Graphic design,Photography,Web design,Data analytics",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
-                        parameters:  "Regular events,Concerts,Jazz,Live performances",
+                        parameters:  "Weekly events,Concerts,Jazz,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
-                        parameters:  "Regular events,Visual arts",
+                        parameters:  "Weekly events,Visual arts",
                         shown: true,
                         link: "https://docs.google.com/forms/u/3/d/1PAUkc5KHCPoqIzuaoQO0SFAonzYujQIVKKaXT2CqOPc/edit?usp=drive_web",
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
@@ -259,7 +265,7 @@
                     {
                         name: "STR",
                         img: "str.png",
-                        parameters:  "Large events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering",
+                        parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLScRVFiZj0mPxnL-LzS9Cl_Z1KAtOrKcAmQGQvZLVwLyJ2jFAg/viewform?usp=sf_link"
                     }
