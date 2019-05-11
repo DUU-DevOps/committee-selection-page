@@ -152,7 +152,7 @@
                     {
                         name: "LDOC",
                         img: "ldoc.png",
-                        parameters:  "Large-scale events,Concerts,Data analytics,Live performances",
+                        parameters:  "Large-scale events,Concerts,Live performances,Marketing strategy,Graphic design,Photography",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
                     },
@@ -173,14 +173,14 @@
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
-                        parameters:  "Large-scale events,Concerts,Music performance,Graphic design",
+                        parameters:  "Large-scale events,Concerts,Live performances,Graphic design",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
-                        parameters:  "Weekly events,Concerts,Film appreciation",
+                        parameters:  "Weekly events,Concerts,Live performances,Music performance,Sound engineering",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },  
@@ -222,7 +222,7 @@
                     {
                         name: "Freewater Productions",
                         img: "freewaterproductions.png",
-                        parameters:  "Videography,Visual arts",
+                        parameters:  "Videography,Visual arts,Film appreciation",
                         shown: true,
                         link: "https://goo.gl/forms/UM2pjHuyCw6fCGvC3"
                     },
@@ -236,21 +236,21 @@
                     {
                         name: "Marketing",
                         img: "marketing.png",
-                        parameters:  "Marketing strategy,Graphic design,Photography,Web design,Data analytics",
+                        parameters:  "Marketing strategy,Graphic design,Photography,Web design,Visual arts,Videography",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
-                        parameters:  "Weekly events,Concerts,Jazz,Live performances",
+                        parameters:  "Music performance,Weekly events,Jazz,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
-                        parameters:  "Weekly events,Visual arts",
+                        parameters:  "Weekly events,Visual arts,Graphic design",
                         shown: true,
                         link: "https://docs.google.com/forms/u/3/d/1PAUkc5KHCPoqIzuaoQO0SFAonzYujQIVKKaXT2CqOPc/edit?usp=drive_web",
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
@@ -258,14 +258,14 @@
                     {
                         name: "WXDU",
                         img: "wxdu.png",
-                        parameters:  "Jazz,Broadcasting,Live performances",
+                        parameters:  "Jazz,Broadcasting,Sound engineering",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "STR",
                         img: "str.png",
-                        parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering",
+                        parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering, Graphic design,Photographer,Marketing strategy ",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLScRVFiZj0mPxnL-LzS9Cl_Z1KAtOrKcAmQGQvZLVwLyJ2jFAg/viewform?usp=sf_link"
                     }
