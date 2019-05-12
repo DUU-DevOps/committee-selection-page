@@ -332,54 +332,90 @@
             $("#exit img")[0].style.display = "none";
         },
         selectAllArts: function() {
-            this.currentSelection = [];
             
             if (!this.allSelectedArts) {
                 for (parameter in this.artsMediaParameters) {
                     this.currentSelection.push(this.artsMediaParameters[parameter].name.toString());
                 }
             }
-            allSelectedArts = true;
+            else{
+                var tempArr = [];
+                for (parameter in this.artsMediaParameters){
+                    tempArr.push(this.artsMediaParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
         },
         selectAllMusic: function() {
-            this.currentSelection = [];
             
             if (!this.allSelectedMusic) {
                 for (parameter in this.musicParameters) {
                     this.currentSelection.push(this.musicParameters[parameter].name.toString());
                 }
             }
-            allSelectedMusic = true;
+            else{
+                var tempArr = [];
+                for (parameter in this.musicParameters){
+                    tempArr.push(this.musicParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
         },
         selectAllEvent: function() {
-            this.currentSelection = [];
             
             if (!this.allSelectedEvent) {
                 for (parameter in this.eventPlanningParameters) {
                     this.currentSelection.push(this.eventPlanningParameters[parameter].name.toString());
                 }
             }
-            allSelectedEvent = true;
+            else{
+                var tempArr = [];
+                for (parameter in this.eventPlanningParameters){
+                    tempArr.push(this.eventPlanningParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
         },
         selectAllMarketing: function() {
-            this.currentSelection = [];
-            
             if (!this.allSelectedMarketing) {
                 for (parameter in this.marketingParameters) {
                     this.currentSelection.push(this.marketingParameters[parameter].name.toString());
                 }
             }
-            allSelectedMarketing = true;
+            else{
+                var tempArr = [];
+                for (parameter in this.marketingParameters){
+                    tempArr.push(this.marketingParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
         },
         selectAllTech: function() {
-            this.currentSelection = [];
+            
             
             if (!this.allSelectedTech) {
                 for (parameter in this.technologyParameters) {
                     this.currentSelection.push(this.technologyParameters[parameter].name.toString());
                 }
             }
-            allSelectedTech = true;
+            else{
+                var tempArr = [];
+                for (parameter in this.technologyParameters){
+                    tempArr.push(this.technologyParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
+
         },
     }
 });
