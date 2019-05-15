@@ -186,7 +186,7 @@
                     },  
                     {
                         name: "DevOps",
-                        img: "devops.png",
+                        img: "DevOpsLogoFinal.png",
                         parameters:  "App development,Data analytics,Web design",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfxlNUYjsx2xHXDnND_EWPV5P8iv5bcaiUP546VnNjjNbU36A/viewform?embedded=true"
