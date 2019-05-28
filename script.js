@@ -316,15 +316,17 @@
 
         },
         apply: function(committeeLink){
-            if (committeeLink === "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"){
-                window.open(committeeLink);
-                return;
-            }
-            $("#application").replaceWith('<iframe align="middle" id="application" src="'+committeeLink+'" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>');
-            $("#background")[0].style.display = "block";
-            $("#background")[0].style.opacity = .9;
-            $("#application")[0].style.display = "block";
-            $("#exit img")[0].style.display = "inline";
+            window.open(committeeLink);
+            return;
+//            if (committeeLink === "https://drive.google.com/file/d/1rApsDl3nJU_l7hilffBHIB3Qzdiwezb8/view?usp=sharing"){
+//                window.open(committeeLink);
+//                return;
+//            }
+//            $("#application").replaceWith('<iframe align="middle" id="application" src="'+committeeLink+'" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>');
+//            $("#background")[0].style.display = "block";
+//            $("#background")[0].style.opacity = .9;
+//            $("#application")[0].style.display = "block";
+//            $("#exit img")[0].style.display = "inline";
         },
         exitApplication: function(){
             $("#background")[0].style.display = "none";
