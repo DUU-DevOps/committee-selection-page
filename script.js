@@ -151,119 +151,119 @@
             committees: [
                     {
                         name: "LDOC",
-                        img: "ldoc.jpg",
+                        img: "ldoc.png",
                         parameters:  "Large-scale events,Concerts,Live performances,Marketing strategy,Graphic design,Photography",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
                     },
                     {
                         name: "Duke@Nite",
-                        img: "dukeatnite.jpg",
+                        img: "dukeatnite.png",
                         parameters:  "Weekly events,Karaoke,Trivia",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSf6G3WqCscGxIgrupLNd1AB-Auuc-ht8n-gz1K40NUo-beuig/viewform?usp=sf_link"
                     },  
                     {
                         name: "Special Events",
-                        img: "specialevents.jpg",
+                        img: "specialevents.png",
                         parameters:  "Large-scale events,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLScGPYpkvnYGrvZticUZuU4Fay5-ffGXO4tb-Xhy7YQXkJMGgg/viewform?usp=sf_link"
                     },
                     {
                         name: "Campus Concerts",
-                        img: "cc.jpg",
+                        img: "cc.png",
                         parameters:  "Large-scale events,Concerts,Live performances,Graphic design",
                         shown: true,
                         link: "https://docs.google.com/forms/d/1FnVdGaJVxZdwGWUYqBNf4YtLw8tHOeydBh-57Ibx3l0/edit?usp=sharing"
                     },
                     {
                         name: "Coffehouse",
-                        img: "coffeehouse.jpg",
+                        img: "coffeehouse.png",
                         parameters:  "Weekly events,Concerts,Live performances,Music performance,Sound engineering",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },  
                     {
                         name: "DevOps",
-                        img: "DevOpsLogoFinal.jpg",
+                        img: "DevOpsLogoFinal.png",
                         parameters:  "App development,Data analytics,Web design",
                         shown: true,
                         link: "https://forms.gle/4NjsVUKrQP31A6ZcA"
                     },
                     {
                         name: "Duke Student Broadcasting",
-                        img: "dsb.jpg",
+                        img: "dsb.png",
                         parameters:  "Videography,Broadcasting",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Financial Analysts",
-                        img: "finanalysts.jpg",
+                        img: "finanalysts.png",
                         parameters:  "App development,Data analytics",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "FIPs",
-                        img: "fips.jpg",
+                        img: "fips.png",
                         parameters:  "Weekly events,Marketing strategy", //NEED HELP!
                         shown: true,
                         link: "https://drive.google.com/file/d/17QSfqkg43_TKa5p0S-QR3kSg4gDbJUY7/view?usp=sharing"
                     },
                     {
                         name: "Freewater Presentations",
-                        img: "freewater.jpg",
+                        img: "freewater.png",
                         parameters:  "Weekly events,Film appreciation",
                         shown: true,
                         link: "https://forms.gle/9VvuPj3ci8QogWVM6"
                     },
                     {
                         name: "Freewater Productions",
-                        img: "freewaterproductions.jpg",
+                        img: "freewaterproductions.png",
                         parameters:  "Videography,Visual arts,Film appreciation",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSeLdCeDYpa7gm3OunPSkU7z_3f6l0-na2--8xtmrs-zXg4Ueg/viewform?usp=sf_link"
                     },
                     {
                         name: "Speakers and Stage",
-                        img: "speakers.jpg",
+                        img: "speakers.png",
                         parameters:  "Large-scale events,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Marketing",
-                        img: "marketing.jpg",
+                        img: "marketing.png",
                         parameters:  "Marketing strategy,Graphic design,Photography,Web design,Visual arts,Videography",
                         shown: true,
                         link: "https://forms.gle/YJahnh6ow5VuvaPp7"
                     },
                     {
                         name: "Jazz@",
-                        img: "jazz.jpg",
+                        img: "jazz.png",
                         parameters:  "Music performance,Weekly events,Jazz,Live performances",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
-                        img: "visarts.jpg",
+                        img: "visarts.png",
                         parameters:  "Weekly events,Visual arts,Graphic design",
                         shown: true,
                         link: "https://forms.gle/UvaNHqERJevcuMF49"
                     },
                     {
                         name: "WXDU",
-                        img: "wxdu.jpg",
+                        img: "wxdu.png",
                         parameters:  "Jazz,Broadcasting,Sound engineering",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
                     },
                     {
                         name: "STR",
-                        img: "str.jpg",
+                        img: "str.png",
                         parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering, Graphic design,Photographer,Marketing strategy ",
                         shown: true,
                         link: "https://forms.gle/hv9vwKBnSys3gAEj6"
