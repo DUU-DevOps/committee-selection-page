@@ -154,7 +154,7 @@
                         img: "ldoc.png",
                         parameters:  "Large-scale events,Concerts,Live performances,Marketing strategy,Graphic design,Photography",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSci8zRjnTMvnme65Xwyw4ACMf-1yK60hL_sQEhobYRk2gWv8w/viewform?usp=sf_link"
+                        link: "https://forms.gle/Cjif7Pq3WS9xkFAA9"
                     },
                     {
                         name: "Duke@Nite",
