@@ -231,7 +231,7 @@
                         img: "speakers.png",
                         parameters:  "Large-scale events,Live performances",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfI8lWEXo2frs1ZbBrOA3gBCEg46LO3G_Gk_3my4KcQrmLUTA/viewform?usp=sf_link"
                     },
                     {
                         name: "Marketing",
@@ -259,7 +259,7 @@
                         img: "wxdu.png",
                         parameters:  "Jazz,Broadcasting,Sound engineering",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSex8hWJ8aHfkEzlxTWqukVjRAwFQzrI0ed-4xsFtOKOeTSP_A/viewform"
                     },
                     {
                         name: "STR",
