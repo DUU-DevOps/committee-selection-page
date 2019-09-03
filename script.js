@@ -245,7 +245,7 @@
                         img: "jazz.png",
                         parameters:  "Music performance,Weekly events,Jazz,Live performances",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfM5axVC-Hvii18UuoSIuCjgQ2GJrmKr6U919OyIQcmW9SjbA/viewform?usp=sf_link"
                     },
                     {
                         name: "Vis Arts",
