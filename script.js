@@ -149,6 +149,7 @@
                 }
             ],
             committees: [
+
                     {
                         name: "LDOC",
                         img: "ldoc.png",
@@ -267,6 +268,12 @@
                         parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering, Graphic design,Photographer,Marketing strategy ",
                         shown: true,
                         link: "https://forms.gle/hv9vwKBnSys3gAEj6"
+                    },
+                    {
+                        name: "DUU",
+                        img: "duu.png",
+                        shown: true,
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform"
                     }
                 ],
             }
@@ -294,6 +301,10 @@
             else{
                 for (var r=0; r<app1.committees.length;r++){
                     app1.committees[r].shown = false;
+                    if (app1.committees[r].name == "DUU"){
+                        app1.committees[r].shown = true;
+                    }
+
                 }
             }
             
