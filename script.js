@@ -196,7 +196,7 @@
                         img: "dsb.png",
                         parameters:  "Videography,Broadcasting",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSc5tWQLvnRo27AnIl7btjdExKXh7eAlpMpNZ27D9puK5RICOw/viewform?usp=sf_link"
                     },
                     {
                         name: "Financial Analysts",
