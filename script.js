@@ -182,14 +182,14 @@
                         img: "coffeehouse.png",
                         parameters:  "Weekly events,Concerts,Live performances,Music performance,Sound engineering",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://forms.gle/vRGwj6RFaKvTLyvNA"
                     },  
                     {
                         name: "DevOps",
                         img: "DevOpsLogoFinal.png",
                         parameters:  "App development,Data analytics,Web design",
                         shown: true,
-                        link: "https://forms.gle/4NjsVUKrQP31A6ZcA"
+                        link: "https://forms.gle/fYFN15SynvQ4VYoh7"
                     },
                     {
                         name: "Duke Student Broadcasting",
@@ -203,7 +203,7 @@
                         img: "finanalysts.png",
                         parameters:  "App development,Data analytics",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform?usp=sf_link"
+                        link: "https://forms.gle/3r9kog2thfc6FJsRA"
                     },
                     {
                         name: "FIPs",
