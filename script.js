@@ -156,7 +156,7 @@
                 {
                     name: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?"
                 }
-            ]
+            ],
 
             committees: [
                     {
