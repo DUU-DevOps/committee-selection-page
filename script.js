@@ -164,126 +164,126 @@
                         img:"exteng.png",
                         parameters: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?",
                         shown: true,
-                        link:""
+                        link:"https://duke.box.com/s/v1cwxbcjn0eb1uoxpsvr8plcxhajmbl0"
                     },
                     {
                         name: "LDOC",
                         img: "ldoc.png",
                         parameters:  "Large-scale events,Concerts,Live performances,Marketing strategy,Graphic design,Photography",
                         shown: true,
-                        link: "https://forms.gle/Cjif7Pq3WS9xkFAA9"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_8Hb27NvSGFCuBmZ"
                     },
                     {
                         name: "Duke@Nite",
                         img: "dukeatnite.png",
                         parameters:  "Weekly events,Karaoke,Trivia",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSf6G3WqCscGxIgrupLNd1AB-Auuc-ht8n-gz1K40NUo-beuig/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_4GvrekdhmfDjGXb"
                     },
                     {
                         name: "Special Events",
                         img: "specialevents.png",
                         parameters:  "Large-scale events,Live performances",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLScGPYpkvnYGrvZticUZuU4Fay5-ffGXO4tb-Xhy7YQXkJMGgg/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_cwpYnmzIYpYRyuN"
                     },
                     {
                         name: "Campus Concerts",
                         img: "cc.png",
                         parameters:  "Large-scale events,Concerts,Live performances,Graphic design",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/1FnVdGaJVxZdwGWUYqBNf4YtLw8tHOeydBh-57Ibx3l0/edit?usp=sharing"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_6n9QBgrOk9Lxo3j"
                     },
                     {
                         name: "Coffehouse",
                         img: "coffeehouse.png",
                         parameters:  "Weekly events,Concerts,Live performances,Music performance,Sound engineering",
                         shown: true,
-                        link: "https://forms.gle/vRGwj6RFaKvTLyvNA"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_daLLP73FHzYdVIN"
                     },
                     {
                         name: "DevOps",
                         img: "DevOpsLogoFinal.png",
                         parameters:  "App development,Data analytics,Web design",
                         shown: true,
-                        link: "https://forms.gle/fYFN15SynvQ4VYoh7"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_25Jig3ulLvAVAHz"
                     },
                     {
                         name: "Duke Student Broadcasting",
                         img: "dsb.png",
                         parameters:  "Videography,Broadcasting",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSc5tWQLvnRo27AnIl7btjdExKXh7eAlpMpNZ27D9puK5RICOw/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_5tB4Hhz1eVIo7gp"
                     },
                     {
                         name: "Financial Analysts",
                         img: "finanalysts.png",
                         parameters:  "App development,Data analytics",
                         shown: true,
-                        link: "https://forms.gle/3r9kog2thfc6FJsRA"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_1YzYSDfMi0VB1oV"
                     },
                     {
                         name: "FIPs",
                         img: "fips.png",
                         parameters:  "Weekly events,Marketing strategy,Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?", //NEED HELP!
                         shown: true,
-                        link: "https://drive.google.com/file/d/17QSfqkg43_TKa5p0S-QR3kSg4gDbJUY7/view?usp=sharing"
+                        link: "mailto:sullivan.brem@duke.edu"
                     },
                     {
                         name: "Freewater Presentations",
                         img: "freewater.png",
                         parameters:  "Weekly events,Film appreciation",
                         shown: true,
-                        link: "https://forms.gle/9VvuPj3ci8QogWVM6"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_1HqohDQ40YlksGF"
                     },
                     {
                         name: "Freewater Productions",
                         img: "freewaterproductions.png",
                         parameters:  "Videography,Visual arts,Film appreciation",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSeLdCeDYpa7gm3OunPSkU7z_3f6l0-na2--8xtmrs-zXg4Ueg/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_0eWKYp3fAbqocEl"
                     },
                     {
                         name: "Speakers and Stage",
                         img: "speakers.png",
                         parameters:  "Large-scale events,Live performances",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfI8lWEXo2frs1ZbBrOA3gBCEg46LO3G_Gk_3my4KcQrmLUTA/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_d6UPsD7wrPpMMUR"
                     },
                     {
                         name: "Marketing",
                         img: "marketing.png",
                         parameters:  "Marketing strategy,Graphic design,Photography,Web design,Visual arts,Videography",
                         shown: true,
-                        link: "https://forms.gle/YJahnh6ow5VuvaPp7"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_8c5urRuPAa7zl8p"
                     },
                     {
                         name: "Jazz@",
                         img: "jazz.png",
                         parameters:  "Music performance,Weekly events,Jazz,Live performances",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfM5axVC-Hvii18UuoSIuCjgQ2GJrmKr6U919OyIQcmW9SjbA/viewform?usp=sf_link"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_5cB1OIpsWdHSMhT"
                     },
                     {
                         name: "Vis Arts",
                         img: "visarts.png",
                         parameters:  "Weekly events,Visual arts,Graphic design",
                         shown: true,
-                        link: "https://forms.gle/UvaNHqERJevcuMF49"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_86Nkx5eHAlOsg2p"
                     },
                     {
                         name: "WXDU",
                         img: "wxdu.png",
                         parameters:  "Jazz,Broadcasting,Sound engineering",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSex8hWJ8aHfkEzlxTWqukVjRAwFQzrI0ed-4xsFtOKOeTSP_A/viewform"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_0U2bWdtM8KmhTsV"
                     },
                     {
                         name: "STR",
                         img: "str.png",
                         parameters:  "Large-scale events,Music performance,Music production,Concerts,Jazz,Live performances,Sound engineering, Graphic design,Photographer,Marketing strategy ",
                         shown: true,
-                        link: "https://forms.gle/hv9vwKBnSys3gAEj6"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_09tm2sAAHJ6ppsh"
                     },
                     {
                         name: "DUU",
