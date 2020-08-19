@@ -31,6 +31,7 @@ h1{
     /*float: left;*/
     padding-left:1%;
     padding-top: 1%;
+    padding-right: 1%;
     width: 16%;
     font-size: 18px;
     display: table-cell; /* Make elements inside the container behave like table cells */
@@ -214,10 +215,6 @@ ul.ks-cboxtags li input[type="checkbox"] {
 }
 ul.ks-cboxtags li input[type="checkbox"]:focus + label {
   border: 2px solid #e9a1ff;
-}
-
-#engagement_label {
-    width: 90%;
 }
 
 .category{
