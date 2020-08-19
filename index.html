@@ -125,7 +125,7 @@
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in engagementParameters">
                             <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
-                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                            <label id="engagement_label" v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                   </ul>
               </div>

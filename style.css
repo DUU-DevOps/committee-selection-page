@@ -216,6 +216,10 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
   border: 2px solid #e9a1ff;
 }
 
+#engagement_label {
+    width: 90%;
+}
+
 .category{
     font-size: 24px;
     font-weight:bold;
@@ -414,7 +418,7 @@ LEVEL 3. SETTINGS
 
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
 @media only screen and (max-width: 600px) {
-  .column { 
+  .column {
     display: block;
     width: 100%;
   }
