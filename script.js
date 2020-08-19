@@ -1,6 +1,6 @@
     var app1 = new Vue({
     el: "#committeeSelection",
-    
+
     data: function(){
         return {
             currentSelection: [],
@@ -9,6 +9,7 @@
             allSelectedEvent: false,
             allSelectedMarketing: false,
             allSelectedTech: false,
+            allSelectedEngagement: false,
             parameters: [
                 {
                     name: "Music performance",
@@ -69,10 +70,12 @@
                 },
                 {
                     name: "Web design"
+                },
+                {
+                    name: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?"
                 }
-                
             ],
-            
+
             musicParameters: [
                 {
                     name: "Music performance"
@@ -89,9 +92,9 @@
                 {
                     name: "Sound engineering"
                 }
-                
+
             ],
-            
+
             artsMediaParameters:[
                 {
                     name: "Film appreciation"
@@ -106,7 +109,7 @@
                     name: "Broadcasting"
                 }
             ],
-            
+
             eventPlanningParameters:[
                 {
                     name: "Large-scale events"
@@ -124,7 +127,7 @@
                     name: "Live performances"
                 }
             ],
-            
+
             marketingParameters:[
                 {
                     name: "Marketing strategy"
@@ -136,7 +139,7 @@
                     name: "Photography"
                 },
             ],
-            
+
             technologyParameters:[
                 {
                     name: "App development"
@@ -148,8 +151,21 @@
                     name: "Web design"
                 }
             ],
-            committees: [
 
+            engagementParameters:[
+                {
+                    name: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?"
+                }
+            ]
+
+            committees: [
+                    {
+                        name: "External Engagement",
+                        img:"exteng.png",
+                        parameters: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?",
+                        shown: true,
+                        link:""
+                    },
                     {
                         name: "LDOC",
                         img: "ldoc.png",
@@ -163,7 +179,7 @@
                         parameters:  "Weekly events,Karaoke,Trivia",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSf6G3WqCscGxIgrupLNd1AB-Auuc-ht8n-gz1K40NUo-beuig/viewform?usp=sf_link"
-                    },  
+                    },
                     {
                         name: "Special Events",
                         img: "specialevents.png",
@@ -184,7 +200,7 @@
                         parameters:  "Weekly events,Concerts,Live performances,Music performance,Sound engineering",
                         shown: true,
                         link: "https://forms.gle/vRGwj6RFaKvTLyvNA"
-                    },  
+                    },
                     {
                         name: "DevOps",
                         img: "DevOpsLogoFinal.png",
@@ -209,7 +225,7 @@
                     {
                         name: "FIPs",
                         img: "fips.png",
-                        parameters:  "Weekly events,Marketing strategy", //NEED HELP!
+                        parameters:  "Weekly events,Marketing strategy,Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?", //NEED HELP!
                         shown: true,
                         link: "https://drive.google.com/file/d/17QSfqkg43_TKa5p0S-QR3kSg4gDbJUY7/view?usp=sharing"
                     },
@@ -272,16 +288,17 @@
                     {
                         name: "DUU",
                         img: "duu.png",
+                        parameters: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?",
                         shown: true,
                         link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform"
                     }
                 ],
             }
         },
-        
-    
+
+
     methods: {
-        select: function(){            
+        select: function(){
 //            var list = $(".chk:checked").map(
 //                function () {
 //                    return this.value;
@@ -289,9 +306,9 @@
 //            );
 
             var list =  this.currentSelection;
-            
 
-            
+
+
             //Make everything false first to ensure committees are shown if nothing is selected
             if (list.length < 1){
                 for (var r=0; r<app1.committees.length;r++){
@@ -307,13 +324,13 @@
 
                 }
             }
-            
-            
+
+
             //Match tags algorithm
             for (var r=0; r<app1.committees.length;r++){
                 //var flag=false;
                 var paramList = app1.committees[r].parameters.split(",");
-                
+
                 for (var z=0; z<list.length;z++){
                     if (paramList.includes(list[z])){
                         app1.committees[r].shown = true;
@@ -321,7 +338,7 @@
 
                 }
             }
-            
+
 
 
         },
@@ -344,7 +361,7 @@
             $("#exit img")[0].style.display = "none";
         },
         selectAllArts: function() {
-            
+
             if (!this.allSelectedArts) {
                 for (parameter in this.artsMediaParameters) {
                     this.currentSelection.push(this.artsMediaParameters[parameter].name.toString());
@@ -360,8 +377,24 @@
                     } );
             }
         },
+        selectAllEngagement: function() {
+            if (!this.allSelectedEngagement){
+                for (parameter in this.engagementParameters) {
+                    this.currentSelection.push(this.engagementParameters[parameter].name.toString());
+                }
+            }
+            else{
+                var tempArr = [];
+                for (parameter in this.engagementParameters){
+                    tempArr.push(this.engagementParameters[parameter].name.toString());
+                }
+                this.currentSelection = this.currentSelection.filter( function( el ) {
+                      return tempArr.indexOf( el ) < 0;
+                    } );
+            }
+        },
         selectAllMusic: function() {
-            
+
             if (!this.allSelectedMusic) {
                 for (parameter in this.musicParameters) {
                     this.currentSelection.push(this.musicParameters[parameter].name.toString());
@@ -378,7 +411,7 @@
             }
         },
         selectAllEvent: function() {
-            
+
             if (!this.allSelectedEvent) {
                 for (parameter in this.eventPlanningParameters) {
                     this.currentSelection.push(this.eventPlanningParameters[parameter].name.toString());
@@ -411,8 +444,8 @@
             }
         },
         selectAllTech: function() {
-            
-            
+
+
             if (!this.allSelectedTech) {
                 for (parameter in this.technologyParameters) {
                     this.currentSelection.push(this.technologyParameters[parameter].name.toString());

@@ -3,54 +3,54 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="author" content="DUU DevOps" />
-      
+
       <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">      
+      <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
-      
+
       <title>DUU Committee Selection</title>
-      
-      
+
+
       <script>
           function resizeIframe(obj) {
             obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
           }
       </script>
-      
+
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
-      
-    
+
+
   </head>
 
 <body>
-    
+
     <div id="committeeSelection">
 
-        
+
         <h1>I'm interested in...</h1>
-    
+
         <div id="paramSelection">
           <div class="row col-container">
-              <div class="column" id="button-selection" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">                  
-                  
+              <div class="column" id="button-selection" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+
                   <label class="toggle category">
                     <input class="toggle__input chk" type="checkbox" v-on:click="selectAllArts(); select();" v-model="allSelectedArts" id="artsMedia">
                     <span class="toggle__label">
                       <h4 class="toggle__text">Arts & Media</h4>
                     </span>
                   </label>
-                  
+
                       <ul class="ks-cboxtags">
                           <li v-for="parameter in artsMediaParameters">
                             <input class=""  type="checkbox" v-bind:value=parameter.name v-bind:id="parameter.name" v-model="currentSelection" v-on:change="select()">
                             <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
                           </li>
                       </ul>
-                      
+
               </div>
-              
+
               <div class="column" id="button-selection" >
                   <label class="toggle category">
                     <input class="toggle__input chk" type="checkbox" v-on:click="selectAllMusic(); select();" v-model="allSelectedMusic" id="music">
@@ -58,16 +58,16 @@
                       <h4 class="toggle__text">Music</h4>
                     </span>
                   </label>
-                  
+
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in musicParameters">
                             <input class="" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
                             <label v-bind:for="parameter.name" id="parameterLabel" >{{parameter.name}}</label>
                           </li>
                       </ul>
-                
+
               </div>
-              
+
 
               <div class="column" id="button-selection">
                   <label class="toggle category">
@@ -76,7 +76,7 @@
                       <h4 class="toggle__text">Event Planning</h4>
                     </span>
                   </label>
-                  
+
                   <ul class="ks-cboxtags">
                           <li v-for="parameter in eventPlanningParameters">
                             <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
@@ -84,7 +84,7 @@
                           </li>
                       </ul>
               </div>
-              
+
               <div class="column" id="button-selection">
                   <label class="toggle category">
                     <input class="toggle__input chk" type="checkbox" v-on:click="selectAllMarketing(); select();" v-model="allSelectedMarketing" id="marketing">
@@ -99,8 +99,8 @@
                           </li>
                   </ul>
               </div>
-              
-              <div class="column" id="button-selection" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+
+              <div class="column" id="button-selection">
                   <label class="toggle category">
                     <input class="toggle__input chk" type="checkbox" v-on:click="selectAllTech(); select();" v-model="allSelectedTech" id="tech">
                     <span class="toggle__label">
@@ -114,30 +114,44 @@
                           </li>
                   </ul>
               </div>
- 
-              
-              
+
+              <div class="column" id="button-selection" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                  <label class="toggle category">
+                    <input class="toggle__input chk" type="checkbox" v-on:click="selectAllEngagement(); select();" v-model="allSelectedEngagement" id="tech">
+                    <span class="toggle__label">
+                      <h4 class="toggle__text">Engagement</h4>
+                    </span>
+                  </label>
+                  <ul class="ks-cboxtags">
+                          <li v-for="parameter in engagementParameters">
+                            <input class="chk" v-bind:value=parameter.name type="checkbox" v-on:change="select()" v-bind:id="parameter.name" v-model="currentSelection">
+                            <label v-bind:for="parameter.name" id="parameterLabel">{{parameter.name}}</label>
+                          </li>
+                  </ul>
+              </div>
+
+
           </div>
         </div>
 
         <div id="committees" v-for="committeeParams in committees" v-if="committeeParams.shown">
             <img v-on:click="apply(committeeParams.link)" v-bind:src='"assets/" + committeeParams.img'>
         </div>
-        
+
         <div id="exit">
             <img v-on:click="exitApplication()" src="assets/exit-logo.png">
         </div>
-        
+
         <div class="applicationContainer">
             <img v-on:click="exitApplication()" id="background" src="assets/white-background.jpg">
             <iframe id="application" align="middle" src="https://docs.google.com/forms/d/e/1FAIpQLSfxlNUYjsx2xHXDnND_EWPV5P8iv5bcaiUP546VnNjjNbU36A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
-    
+
     </div>
 
-    
+
     <script  src="script.js"></script>
 
 </body>
-    
+
 </html>
