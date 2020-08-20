@@ -290,7 +290,7 @@
                         img: "duu.png",
                         parameters: "Are you interested in conscious programming / cultural-sensitivity / equity / community building or collaboration?",
                         shown: true,
-                        link: "https://docs.google.com/forms/d/e/1FAIpQLSfhy2OYIDsfY0Rm6LBmsWiU-wgr3ZldqcYW1T-79Z7AJAL6tA/viewform"
+                        link: "https://duke.qualtrics.com/jfe/form/SV_efynAKOVhUaX2ux"
                     }
                 ],
             }
